@@ -3,14 +3,22 @@
     <meta charset="utf-8" />
     <title>Graph 4 twims</title>
     <style>
-    	* { background: #888; padding: 0; margin: 0; }
+    	* { background: #888; }
     	canvas { display: block; margin: 0 auto; }
+    	textarea { background: #eee; }
+    	button { background: #0e0; }
     </style>
 </head>
 <body>
 
 <canvas id="hDc" width="640" height="480"></canvas>
+<p>Таблица распределения:
+<button onclick="go()">Draw</button>
+</p>
+<textarea id="input" cols="25" rows="10" autofocus></textarea>
 
+
+<script type="text/javascript" src = "plot.js"></script>
 <script type="text/javascript" src = "main.js"></script>
 
 </body>
